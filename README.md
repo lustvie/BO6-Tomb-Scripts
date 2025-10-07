@@ -1,6 +1,6 @@
 # 🧟 BO6-Tomb-Scripts
 
-> **AFK automation scripts** for *Call of Duty: Black Ops 6 — Tomb Mode*.  
+> **AFK scripts** for *Call of Duty: Black Ops 6 — Zombies — Tomb Map*.  
 > Includes PC (AutoHotkey) and console (Cronus Zen) versions.
 
 ---
