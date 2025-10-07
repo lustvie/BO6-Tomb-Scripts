@@ -1,4 +1,17 @@
-# BO6-Tomb-Scripts
+# 🧟 BO6-Tomb-Scripts
+
+> **AFK automation scripts** for *Call of Duty: Black Ops 6 — Tomb Mode*.  
+> Includes PC (AutoHotkey) and console (Cronus Zen) versions.
+
+---
+
+## 🎮 Supported Platforms
+- 🖥️ **PC** — AutoHotkey script (`Tomb AFK - PC.AHK`)
+- 🎮 **PlayStation** — Cronus GPC script (`Tomb AFK - PS.gpc`)
+- 🕹️ **Xbox** — Cronus GPC script (`Tomb AFK - XBL.gpc`)
+
+---
+
 ## ⚙️ Requirements
 Before running the script, make sure you have the correct setup:
 
