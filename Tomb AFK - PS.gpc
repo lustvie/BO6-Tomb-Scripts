@@ -1,0 +1,128 @@
+/*
+______________________________________________________________________________________________________                        
+      .---.        ___    _  ,---.  ,---. .-./`)      _______    .-./`)   ______          .-''-.   
+      | ,_|      .'   |  | | |   /  |   | \ .-.')    /   __  \   \ .-.') |    _ `''.    .'_ _   \  
+    ,-./  )      |   .'  | | |  |   |  .' / `-' \   | ,_/  \__)  / `-' \ | _ | ) _  \  / ( ` )   ' 
+    \  '_ '`)    .'  '_  | | |  | _ |  |   `-'`"` ,-./  )         `-'`"` |( ''_'  ) | . (_ o _)  | 
+     > (_)  )    '   ( \.-.| |  _( )_  |   .---.  \  '_ '`)       .---.  | . (_) `. | |  (_,_)___| 
+    (  .  .-'    ' (`. _` /| \ (_ o._) /   |   |   > (_)  )  __   |   |  |(_    ._) ' '  \   .---. 
+     `-'`-'|___  | (_ (_) _)  \ (_,_) /    |   |  (  .  .-'_/  )  |   |  |  (_.\.' /   \  `-'    / 
+      |        \  \ /  . \ /   \     /     |   |   `-'`-'     /   |   |  |       .'     \       /  
+      `--------`   ``-'`-''     `---`      '---'     `._____.'    '---'  '-----'`        `'-..-'   
+______________________________________________________________________________________________________
+
+--------------------------------------[ REQUIREMENTS ]-----------------------------------------------
+- DPAD UP to start / stop
+- Equip Vulture’s Aid augment: Parting Gift, Condor’s Reach
+- Equip Speed Cola: Classic Formula
+- Equip Jug: Turtle Shell, Durable Plates
+- Equip Quick Revive: Dying Wish
+- Equip Elemental Pop: Electric Cherry
+- Equip Mister Peeks: Apex Predator, Party Animal
+- Golden Armor
+- Upgraded Ice Staff
+- Apply Armor needs to be set to “Apply One” in settings
+- All binds for this script are Default
+
+--------------------------------------[ INSTRUCTIONS ]-----------------------------------------------
+- Go to Stamin-Up on the tomb
+- Stand hugging the pillar to the right of Stamin-Up
+- Look down, facing the wall and activate the script with DPAD UP
+- Setup video: https://www.youtube.com/watch?v=9w9v4qSpKRA
+
+--------------------------------------[ CONTROLS ]---------------------------------------------------
+By default, this uses the standard button layout. However, it supports custom button layouts.
+To use a custom setup, put YOUR binds for these actions in this format:
+  define ACTION = PS5_xxx
+
+Use this index of identifiers for your buttons:
+----------------------------------------------------------------------------------------------
+PS5_PS          =   PS/Guide Button
+PS5_SHARE       =   Share Button
+PS5_OPTIONS     =   Options Button
+PS5_R1          =   Right Bumper
+PS5_R2          =   Right Trigger
+PS5_R3          =   Right Stick
+PS5_L1          =   Left Bumper
+PS5_L2          =   Left Trigger
+PS5_L3          =   Left Stick
+PS5_RX          =   Right stick x-axis (left/right)
+PS5_RY          =   Right stick y-axis (up/down)
+PS5_LX          =   Light stick x-axis (left/right)
+PS5_LY          =   Left stick y-axis (up/down)
+PS5_UP          =   D-Pad Up
+PS5_DOWN        =   D-Pad Down
+PS5_LEFT        =   D-Pad Left
+PS5_RIGHT       =   D-Pad Right
+PS5_TRIANGLE    =   Triangle Button
+PS5_CIRCLE      =   Circle Button
+PS5_CROSS       =   Cross Button
+PS5_SQUARE      =   Square Button
+----------------------------------------------------------------------------------------------
+*/
+
+define FIRE     = PS5_R2                  
+define ARMOR    = PS5_TRIANGLE
+define RELOAD   = PS5_SQUARE
+define TACTICAL = PS5_L1
+define LETHAL   = PS5_R1
+
+/*
+----------------------------------------------------------------------------------------------
+*/
+
+int start;
+
+main {
+    if (event_press(PS5_UP)) {
+        start = !start;
+    }
+
+    if (start) {
+        combo_run(Main);
+        combo_run(Movement); 
+    } else {
+        combo_stop(Main);
+        combo_stop(Movement);
+    }
+}
+
+combo Main {  
+    /* Apply Armour */
+    set_val(ARMOR, 100);    
+    wait(600);              
+    set_val(ARMOR, 0);      
+    
+    wait(150);              
+
+    /* Ice charge shot */
+    set_val(FIRE, 100);     
+    wait(2500);             
+    set_val(FIRE, 0);     
+
+    wait(1000); 
+
+    /* Reload */
+    set_val(RELOAD, 100);   
+    wait(50);               
+    set_val(RELOAD, 0);     
+
+    wait(2000);             
+
+    /* Field Upgrade */
+    set_val(LETHAL, 100);   
+    set_val(TACTICAL, 100); 
+    wait(100)
+}
+
+combo Movement {
+    /* Move forward and left */
+    set_val(PS5_LY, -100);  
+    set_val(PS5_LX, -100);  
+    wait(250);              
+
+    /* Move forward and right */
+    set_val(PS5_LY, -100); 
+    set_val(PS5_LX, 100);   
+    wait(600);              
+}
