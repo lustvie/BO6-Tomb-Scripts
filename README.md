@@ -32,7 +32,8 @@ Before running the script, make sure you have the correct setup:
 1. Go to **Stamin-Up** on the Tomb map.  
 2. Stand hugging the **pillar to the right** of Stamin-Up.  
 3. Look down, face the wall, and **activate the script with D-Pad Up**.  
-4. To stop the script, press **D-Pad Up** again.  
+4. For cronus press **D-Pad Up** to start/stop the script.
+5. For PC (AHK) press ""8"" to start and ""9"" to stop the script.
 
 📺 **Setup Video:** [YouTube Tutorial](https://www.youtube.com/watch?v=9w9v4qSpKRA)
 
