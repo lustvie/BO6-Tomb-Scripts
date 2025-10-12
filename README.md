@@ -20,7 +20,7 @@ Before running the script, make sure you have the correct setup:
 - 🛡️ **Juggernog:** Turtle Shell, Durable Plates  
 - 💉 **Quick Revive:** Dying Wish  
 - 🔌 **Elemental Pop:** Electric Cherry  
-- 🐒 **Mister Peeks:** Apex Predator, Party Animal  
+- 🐒 **Mister Peaks:** Apex Predator, Party Animal  
 - 🪖 **Golden Armor**  
 - ❄️ **Upgraded Ice Staff**  
 - ⚙️ **Apply Armor:** Set to *Apply One* in the Settings  
