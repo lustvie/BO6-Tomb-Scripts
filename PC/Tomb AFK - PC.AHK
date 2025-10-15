@@ -4,38 +4,8 @@
 ; GLOBAL FLAGS 
 ActionActive := false
 KeeploopRunning := false
-HoldF_Duration := 4000
-Spam3_Interval := 100
 
-; PIXEL CHECK TIMER 
-SetTimer, CheckPixelColor, 100  ; Check every 100ms
-
-CheckPixelColor:
-    if (ActionActive)
-        return
-
-    PixelGetColor, color, 969, 783, RGB
-    color := SubStr(color, 3)
-    StringLower, color, color
-
-if (color = "Eb4442")  ; match target
-{
-    ActionActive := true
-    KeeploopRunning := false
-    SetTimer, CheckPixelColor, Off
-
-    ; Stop all movement and inputs 
-    Send, {W up}{A up}{S up}{D up}{LButton up}{f up}
-
-    ; Start save & quit  
-    Send, {f down}
-    SetTimer, Spam3, % -Spam3_Interval
-    SetTimer, StopHoldAndSpam, -%HoldF_Duration%
-}
-
-return
-
-;  COMBAT + MOVEMENT LOOP 
+; COMBAT + MOVEMENT LOOP (Press 8 to start/stop)
 8::
 #MaxThreadsPerHotkey 1
 if KeeploopRunning
@@ -81,46 +51,5 @@ Loop
 }
 KeeploopRunning := false
 return
-
-
-; Spam '3' Flag (Use Mutant Injection)
-Spam3:
-    if (ActionActive)
-        Send, 3
-return
-
-; Save & Quit 
-StopHoldAndSpam:
-    SetTimer, Spam3, Off
-    ActionActive := false
-    Send, {f up}
-    Sleep, 800
-
-    ; Pause Menu
-    Send, {Esc}
-    Sleep, 500
-    Send, {Esc}
-    Sleep, 500
-    Send, {Esc}
-    Sleep, 700
-
-    ; Navigate Save & Quit
-    Loop, 6
-    {
-        Send, {Down}
-        Sleep, 200
-    }
-    
-    ; Confirm Save & Quit
-    Sleep, 500
-    Send, {Space}
-    Sleep, 500
-    Send, {Down}
-    Sleep, 500
-    Send, {Space}
-    Sleep, 500
-
-    ExitApp
-return
+; Exit script (Press * key)
 *::ExitApp
-
