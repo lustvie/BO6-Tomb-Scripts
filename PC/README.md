@@ -11,6 +11,19 @@ It handles movement, shooting, armor, and self-revive triggers automatically bas
 ## 💻 Requirements
 - Windows 10 or 11  
 - [AutoHotkey v1.1](https://www.autohotkey.com/)
+  
+Before running, make sure your Augments and Settings are correct:
+
+🧠 Vulture’s Aid Augment: Parting Gift, Condor’s Reach
+⚡ Speed Cola: Supercharged
+🛡️ Juggernog: Turtle Shell, Durable Plates
+💉 Quick Revive: Dying Wish
+🔌 Elemental Pop: Electric Cherry
+🐒 Mister Peaks: Apex Predator, Party Animal
+🪖 Golden Armor
+❄️ Upgraded Ice Staff
+⚙️ Apply Armor → Set to Apply One in settings
+All binds are default (can be customized inside the script)
 
 ---
 
@@ -56,3 +69,4 @@ It handles movement, shooting, armor, and self-revive triggers automatically bas
 PixelGetColor, color, 969, 783, RGB
 HoldF_Duration := 4000
 Spam3_Interval := 100
+
