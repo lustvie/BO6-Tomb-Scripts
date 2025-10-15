@@ -30,7 +30,7 @@
 
 ## ⚙️ Requirements
 
-Before running, make sure your loadout and settings are correct:
+Before running, make sure your Augments and Settings are correct:
 
 - 🧠 **Vulture’s Aid Augment:** Parting Gift, Condor’s Reach  
 - ⚡ **Speed Cola:** Supercharged  
@@ -92,4 +92,5 @@ The **Xbox version** adds a vibration-based **fail-safe** that automatically:
 To change button bindings, edit the `define` section near the top of each `.gpc` script with the keybind you want:
 
 ![Image](https://i.postimg.cc/650rrW7j/image.png)
+
 
