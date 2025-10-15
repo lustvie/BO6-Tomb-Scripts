@@ -31,7 +31,6 @@ Before running, make sure your Augments and Settings are correct:
 1. Download the file **`Tomb AFK - PC.ahk`**
 2. Install AutoHotkey v1 from the official website  
 3. Double-click the script to run  
-4. The pixel check runs every 100 ms automatically
 
 ---
 
@@ -55,6 +54,8 @@ Before running, make sure your Augments and Settings are correct:
 
 ---
 
+--- DOES NOT WORK ---
+WORK IN PROGGRESS - 
 ## 🧠 Save & Quit Feature
 - Works at **1920×1080** resolution in **Borderless Fullscreen**.  
 - If your monitor can’t use 1080p, use **Fullscreen Exclusive**.  
@@ -69,5 +70,6 @@ Before running, make sure your Augments and Settings are correct:
 PixelGetColor, color, 969, 783, RGB
 HoldF_Duration := 4000
 Spam3_Interval := 100
+
 
 
