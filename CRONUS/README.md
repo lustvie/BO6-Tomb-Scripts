@@ -51,8 +51,6 @@ Before running, make sure your Augments and Settings are correct:
 2. Stand hugging the **left side of the pillar to the right of Stamin-Up**.  
 3. Look down, face the wall, and press **D-Pad Up** to start or stop the script.
 
-![Description](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0f12130e-c86b-4dd4-870d-48fbfbd9d788/dkpx8pg-9c917e28-0e83-4b3e-b410-53e97cf1bbe8.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8wZjEyMTMwZS1jODZiLTRkZDQtODcwZC00OGZiZmJkOWQ3ODgvZGtweDhwZy05YzkxN2UyOC0wZTgzLTRiM2UtYjQxMC01M2U5N2NmMWJiZTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PQzpKeIabwhDZ1UgdukppIuX1hcnz1CRRiUveQU8tLg)
-
 📺 **Setup Video:** [YouTube Tutorial](https://www.youtube.com/watch?v=9w9v4qSpKRA)
 
 ---
@@ -94,6 +92,7 @@ The **Xbox version** adds a vibration-based **fail-safe** that automatically:
 To change button bindings, edit the `define` section near the top of each `.gpc` script with the keybind you want:
 
 ![Image](https://i.postimg.cc/650rrW7j/image.png)
+
 
 
 
