@@ -69,10 +69,6 @@ All scripts automate the same loop:
 
 ---
 
-## ⚠️ Disclaimer
-
----
-
 ## 📝 License
 
 MIT License
