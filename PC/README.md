@@ -37,7 +37,7 @@ Before running, make sure your Augments and Settings are correct:
 ## 🎮 Usage
 
 **AFK SPOT**
-[![Play video](https://raw.githubusercontent.com/lustvie/Video-Host/main/thumbnail.png)](https://raw.githubusercontent.com/lustvie/Video-Host/main/20251015_CrowdedRoundWolverinePMSTwin-DiLTSg2yhlw08npO_source.mp4)
+[![Play video](https://youtu.be/KHWBM11ce8E)
 
 
 | Key | Action |
@@ -75,6 +75,7 @@ WORK IN PROGGRESS -
 PixelGetColor, color, 969, 783, RGB
 HoldF_Duration := 4000
 Spam3_Interval := 100
+
 
 
 
