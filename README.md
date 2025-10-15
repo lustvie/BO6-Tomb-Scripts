@@ -8,7 +8,7 @@
 ## ✨ Features
 
 - ✅ Fully automated AFK farming for high rounds
-- ✅ Fail-safe auto-revive & save/quit (Xbox & PC versions)
+- ✅ Fail-safe auto-revive & save/quit ((Xbox)PC is work in proggress)
 - ✅ Customizable button bindings
 - ✅ Easy on/off toggle
 
@@ -28,7 +28,7 @@
 
 ### 💻 [PC (AutoHotkey)](./PC)
 - **File:** `Tomb AFK.ahk`
-- **Fail-Safe:** ✅ Yes (pixel check)
+- **Fail-Safe:** ❌ Work in proggress (pixel check)
 - **Requirements:** AutoHotkey installed, M&K
 
 📺 **Setup Tutorial:** [Watch on YouTube](https://www.youtube.com/watch?v=9w9v4qSpKRA)
@@ -62,7 +62,7 @@ All scripts automate the same loop:
 4. Use field upgrade
 5. Repeat
 
-**Xbox & PC versions** include fail-safe that detects when downed and executes:
+**Xbox** include fail-safe that detects when downed and executes:
 - Self-revive
 - Mutant injection
 - Save & quit
