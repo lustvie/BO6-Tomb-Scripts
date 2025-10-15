@@ -14,16 +14,16 @@ It handles movement, shooting, armor, and self-revive triggers automatically bas
   
 Before running, make sure your Augments and Settings are correct:
 
-🧠 Vulture’s Aid Augment: Parting Gift, Condor’s Reach
-⚡ Speed Cola: Supercharged
-🛡️ Juggernog: Turtle Shell, Durable Plates
-💉 Quick Revive: Dying Wish
-🔌 Elemental Pop: Electric Cherry
-🐒 Mister Peaks: Apex Predator, Party Animal
-🪖 Golden Armor
-❄️ Upgraded Ice Staff
-⚙️ Apply Armor → Set to Apply One in settings
-All binds are default (can be customized inside the script)
+- 🧠 **Vulture’s Aid Augment:** Parting Gift, Condor’s Reach  
+- ⚡ **Speed Cola:** Supercharged  
+- 🛡️ **Juggernog:** Turtle Shell, Durable Plates  
+- 💉 **Quick Revive:** Dying Wish  
+- 🔌 **Elemental Pop:** Electric Cherry  
+- 🐒 **Mister Peaks:** Apex Predator, Party Animal  
+- 🪖 **Golden Armor**  
+- ❄️ **Upgraded Ice Staff**  
+- ⚙️ **Apply Armor** → Set to *Apply One* in settings  
+- All binds are **default** (can be customized inside the script)
 
 ---
 
@@ -69,4 +69,5 @@ All binds are default (can be customized inside the script)
 PixelGetColor, color, 969, 783, RGB
 HoldF_Duration := 4000
 Spam3_Interval := 100
+
 
