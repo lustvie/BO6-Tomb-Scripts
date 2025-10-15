@@ -16,7 +16,7 @@
 Before running the script, make sure you have the correct setup:
 
 - 🧠 **Vulture’s Aid Augment:** Parting Gift, Condor’s Reach  
-- ⚡ **Speed Cola:** Classic Formula  
+- ⚡ **Speed Cola:** Supercharged  
 - 🛡️ **Juggernog:** Turtle Shell, Durable Plates  
 - 💉 **Quick Revive:** Dying Wish  
 - 🔌 **Elemental Pop:** Electric Cherry  
