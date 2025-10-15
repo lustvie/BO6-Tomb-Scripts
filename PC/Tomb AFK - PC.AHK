@@ -18,7 +18,7 @@ CheckPixelColor:
     color := SubStr(color, 3)
     StringLower, color, color
 
-if (color = "eb4442")  ; match target
+if (color = "Eb4442")  ; match target
 {
     ActionActive := true
     KeeploopRunning := false
@@ -123,3 +123,4 @@ StopHoldAndSpam:
     ExitApp
 return
 *::ExitApp
+
