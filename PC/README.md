@@ -37,7 +37,8 @@ Before running, make sure your Augments and Settings are correct:
 ## 🎮 Usage
 
 **AFK SPOT**
-[![Play video](https://youtu.be/KHWBM11ce8E)
+[![Watch on YouTube](https://img.youtube.com/vi/KHWBM11ce8E/0.jpg)](https://youtu.be/KHWBM11ce8E)
+
 
 
 | Key | Action |
@@ -75,6 +76,7 @@ WORK IN PROGGRESS -
 PixelGetColor, color, 969, 783, RGB
 HoldF_Duration := 4000
 Spam3_Interval := 100
+
 
 
 
