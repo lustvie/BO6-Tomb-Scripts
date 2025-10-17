@@ -1,6 +1,6 @@
 # Tomb AFK PC Script Setup
 
-An AutoHotkey v1 script that automates combat, movement, and pixel detection for AFK farming in *Black Ops 6 – Zombies (Tomb map)*.  
+An AutoHotkey v1 script for AFK farming in *Black Ops 6 – Zombies (Tomb map)*.  
 It handles movement, shooting, armor, and self-revive triggers automatically based on pixel color detection.
 
 ![AutoHotkey](https://img.shields.io/badge/AutoHotkey-v1.1-green)
@@ -75,6 +75,7 @@ WORK IN PROGGRESS -
 PixelGetColor, color, 969, 783, RGB
 HoldF_Duration := 4000
 Spam3_Interval := 100
+
 
 
 
