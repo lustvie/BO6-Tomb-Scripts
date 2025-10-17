@@ -40,8 +40,6 @@ Before running, make sure your Augments and Settings are correct:
 2. Stand hugging the **left side of the pillar to the right of Stamin-Up**.  
 3. Look down, face the wall, and press **D-Pad Up** to start or stop the script.
 
-📺 **Setup Video:** [YouTube Tutorial](https://www.youtube.com/watch?v=9w9v4qSpKRA)
-
 | Key | Action |
 |-----|--------|
 | `8` | Toggle combat/movement automation |
@@ -77,6 +75,7 @@ WORK IN PROGGRESS -
 PixelGetColor, color, 969, 783, RGB
 HoldF_Duration := 4000
 Spam3_Interval := 100
+
 
 
 
