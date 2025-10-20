@@ -1,27 +1,16 @@
-#Persistent
-#MaxThreadsPerHotkey 3
-
-; GLOBAL FLAGS 
-ActionActive := false
-KeeploopRunning := false
-
-; COMBAT + MOVEMENT LOOP (Press 8 to start/stop)
 8::
 #MaxThreadsPerHotkey 1
-if KeeploopRunning
-{
+if KeeploopRunning {
     KeeploopRunning := false
     Send, {W up}{A up}{D up}{LButton up}
     return
 }
 KeeploopRunning := true
 
-; Hold W+D constantly
-Send, {W down}
-Send, {D down}
+; ONLY NOW start initial movement
+Send, {W down}{D down}
 
-Loop
-{
+Loop {
     if ActionActive or !KeeploopRunning
         break
 
@@ -49,7 +38,6 @@ Loop
     Send, {X}
     Sleep, 300
 }
+
 KeeploopRunning := false
 return
-; Exit script (Press * key)
-*::ExitApp
