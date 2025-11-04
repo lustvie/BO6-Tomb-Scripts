@@ -1,16 +1,15 @@
 # 🎮 BO6 Tomb AFK Scripts
 
-> **Automated high-round farming scripts for Call of Duty: Black Ops 6 Zombies (Tomb Map)**  
+> **AFK high-round farming scripts for Call of Duty: Black Ops 6 Zombies (Tomb Map)**  
 > Available for Xbox, PlayStation (Cronus Zen), and PC (AutoHotkey).
 
 ---
 
 ## ✨ Features
 
-- ✅ Fully automated AFK farming for high rounds
-- ✅ Fail-safe auto-revive & save/quit ((Xbox)PC is work in proggress)
+- ✅ AFK farming high rounds for gums/xp
+- ✅ Fail-safe auto-revive & save/quit for Xbox (PC is work in proggress)
 - ✅ Customizable button bindings
-- ✅ Easy on/off toggle
 
 ---
 
