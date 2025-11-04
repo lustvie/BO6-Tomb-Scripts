@@ -1,7 +1,6 @@
 # Tomb AFK PC Script Setup
 
 An AutoHotkey v1 script for AFK farming in *Black Ops 6 – Zombies (Tomb map)*.  
-It handles movement, shooting, armor, and self-revive triggers automatically based on pixel color detection.
 
 ![AutoHotkey](https://img.shields.io/badge/AutoHotkey-v1.1-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
@@ -38,7 +37,7 @@ Before running, make sure your Augments and Settings are correct:
 
 1. Go to **Stamin-Up** on the Tomb map.  
 2. Stand hugging the **left side of the pillar to the right of Stamin-Up**.  
-3. Look down, face the wall, and press **D-Pad Up** to start or stop the script.
+3. Look down, face the wall, and press **8** to start or stop the script.
 
 | Key | Action |
 |-----|--------|
@@ -55,7 +54,6 @@ Before running, make sure your Augments and Settings are correct:
 
 - The script holds **W+D** for movement.  
 - During shooting, it briefly switches to **W+A** to strafe.  
-- When pixel color `#EB4442` is detected at `(969, 783)`, all inputs stop and the revive/save-quit sequence runs.
 
 ---
 
@@ -70,11 +68,6 @@ WORK IN PROGGRESS -
 
 ---
 
-## ⚙️ Configuration
-```ahk
-PixelGetColor, color, 969, 783, RGB
-HoldF_Duration := 4000
-Spam3_Interval := 100
 
 
 
