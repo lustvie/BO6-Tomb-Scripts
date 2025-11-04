@@ -32,7 +32,7 @@ Loop {
 
     ; RELOAD 
     Send, {R}
-    Sleep, 2500
+    Sleep, 2550
 
     ; FIELD UPGRADE 
     Send, {X}
