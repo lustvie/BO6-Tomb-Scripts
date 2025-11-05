@@ -50,6 +50,8 @@ Before running, make sure your Augments and Settings are correct:
 2. Stand hugging the **left side of the pillar to the right of Stamin-Up**.  
 3. Look down, face the wall, and press **D-Pad Up** to start or stop the script.
 
+📺 **Setup Video:** [YouTube Tutorial](https://youtu.be/MiKhnL8KY4s)
+
 ---
 
 ## 🧩 Xbox Fail-Safe Feature (Optional)
@@ -89,6 +91,7 @@ The **Xbox version** adds a vibration-based **fail-safe** that automatically:
 To change button bindings, edit the `define` section near the top of each `.gpc` script with the keybind you want:
 
 ![Image](https://i.postimg.cc/650rrW7j/image.png)
+
 
 
 
