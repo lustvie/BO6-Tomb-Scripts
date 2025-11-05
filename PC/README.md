@@ -39,6 +39,8 @@ Before running, make sure your Augments and Settings are correct:
 2. Stand hugging the **left side of the pillar to the right of Stamin-Up**.  
 3. Look down, face the wall, and press **8** to start or stop the script.
 
+📺 **Setup Video:** [YouTube Tutorial](https://youtu.be/MiKhnL8KY4s)
+
 | Key | Action |
 |-----|--------|
 | `8` | Toggle combat/movement automation |
@@ -67,6 +69,7 @@ WORK IN PROGGRESS -
   - 1× Mutant Injection  
 
 ---
+
 
 
 
