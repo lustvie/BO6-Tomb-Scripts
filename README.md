@@ -30,7 +30,7 @@
 - **Fail-Safe:** ❌ Work in proggress (pixel check)
 - **Requirements:** AutoHotkey installed, M&K
 
-📺 **Setup Tutorial:** [Watch on YouTube](https://www.youtube.com/watch?v=9w9v4qSpKRA)
+📺 **Setup Tutorial:** [Watch on YouTube](https://www.youtube.com/watch?v=MiKhnL8KY4s&t=9s)
 
 ---
 
