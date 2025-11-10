@@ -8,7 +8,7 @@
 ## ✨ Features
 
 - ✅ AFK farming high rounds for gums/xp
-- ✅ Fail-safe auto-revive & save/quit for Xbox (PC is work in proggress)
+- ✅ Fail-safe auto-revive & save/quit for Xbox
 - ✅ Customizable button bindings
 
 ---
@@ -27,7 +27,7 @@
 
 ### 💻 [PC (AutoHotkey)](./PC)
 - **File:** `Tomb AFK.ahk`
-- **Fail-Safe:** ❌ Work in proggress (pixel check)
+- **Fail-Safe:** ❌ No
 - **Requirements:** AutoHotkey installed, M&K
 
 📺 **Setup Tutorial:** [Watch on YouTube](https://www.youtube.com/watch?v=MiKhnL8KY4s&t=9s)
