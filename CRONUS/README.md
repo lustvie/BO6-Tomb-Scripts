@@ -1,6 +1,6 @@
 # 🎮 Cronus Zen Scripts — Tomb AFK
 
-> Console automation scripts for *Call of Duty: Black Ops 6 — Zombies (Tomb Map)*.  
+> Cronus scripts script for AFK farming in Black Ops 6 – Zombies (Tomb map). 
 
 ---
 ## 📥 Installation
@@ -91,6 +91,7 @@ The **Xbox version** adds a vibration-based **fail-safe** that automatically:
 To change button bindings, edit the `define` section near the top of each `.gpc` script with the keybind you want:
 
 ![Image](https://i.postimg.cc/650rrW7j/image.png)
+
 
 
 
