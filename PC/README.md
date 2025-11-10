@@ -43,7 +43,7 @@ Before running, make sure your Augments and Settings are correct:
 
 | Key | Action |
 |-----|--------|
-| `8` | Toggle combat/movement automation |
+| `8` | Toggle the script |
 | `*` | Exit the script immediately |
 
 ### KeyBinds
@@ -58,20 +58,6 @@ Before running, make sure your Augments and Settings are correct:
 - During shooting, it briefly switches to **W+A** to strafe.  
 
 ---
-
---- DOES NOT WORK ---
-WORK IN PROGGRESS - 
-## 🧠 Save & Quit Feature
-- Works at **1920×1080** resolution in **Borderless Fullscreen**.  
-- If your monitor can’t use 1080p, use **Fullscreen Exclusive**.  
-- Requires:  
-  - 1× Self-Revive  
-  - 1× Mutant Injection  
-
----
-
-
-
 
 
 
