@@ -1,19 +1,6 @@
 # 🎮 Cronus Zen Scripts — Tomb AFK
 
-> Cronus scripts script for AFK farming in Black Ops 6 – Zombies (Tomb map). 
-
----
-## 📥 Installation
-
-1. **Download** the script file for your platform:
-   - Xbox: `Tomb AFK - XBL.gpc`
-   - PlayStation: `Tomb AFK - PS.gpc`
-2. **Open Cronus Zen Software** on your PC
-3. **Connect your Cronus Zen** device via USB
-4. Go to **Programmer Tab** in the software
-5. Click **"Open"** and select the downloaded `.gpc` file
-6. Click **"Compile"** (checkmark icon) to load the script
-
+> Cronus scripts for AFK farming in Black Ops 6 – Zombies (Tomb map). 
 💡 *First time using Cronus Zen?* Check the [official setup guide](https://guide.cronus.support/).
 
 ---
@@ -91,6 +78,7 @@ The **Xbox version** adds a vibration-based **fail-safe** that automatically:
 To change button bindings, edit the `define` section near the top of each `.gpc` script with the keybind you want:
 
 ![Image](https://i.postimg.cc/650rrW7j/image.png)
+
 
 
 
