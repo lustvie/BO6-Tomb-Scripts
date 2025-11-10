@@ -28,7 +28,8 @@ ________________________________________________________________________________
 - Go to Stamin-Up on the tomb
 - Stand hugging the pillar to the right of Stamin-Up
 - Look down, facing the wall and activate the script with DPAD UP
-- Setup video: https://www.youtube.com/watch?v=9w9v4qSpKRA
+- Setup video: https://www.youtube.com/watch?v=MiKhnL8KY4s&t=13s
+- GitHub Page: https://github.com/lustvie/BO6-Tomb-Scripts
 
 --------------------------------------[ CONTROLS ]---------------------------------------------------
 By default, this uses the standard button layout. However, it supports custom button layouts.
@@ -133,4 +134,5 @@ combo Movement {
     set_val(PS5_LY, -100); 
     set_val(PS5_LX, 100);   
     wait(600);              
+
 }
