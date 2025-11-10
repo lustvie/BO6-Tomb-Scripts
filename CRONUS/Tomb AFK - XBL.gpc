@@ -28,7 +28,8 @@ ________________________________________________________________________________
 - Go to Stamin-Up on the tomb
 - Stand hugging the pillar to the right of Stamin-Up
 - Look down, facing the wall and activate the script with DPAD UP
-- Setup video: https://www.youtube.com/watch?v=9w9v4qSpKRA
+- Setup video: https://www.youtube.com/watch?v=MiKhnL8KY4s&t=13s
+- GitHub Page: https://github.com/lustvie/BO6-Tomb-Scripts
 
 --------------------------------------[ FAIL SAFE / SAVE QUIT ]--------------------------------------
 Fail Safe Feature (Xbox Only)
@@ -213,4 +214,5 @@ combo FailSafe {
    set_val(XB1_A, 100);	    wait(100);  set_val(XB1_A, 0);      wait(500);  /* Save Quit */
    set_val(XB1_DOWN, 100);	wait(100);  set_val(XB1_DOWN, 0);   wait(500);  /* Nav to Save Quit */
    set_val(XB1_A, 100);	    wait(100);  set_val(XB1_A, 0);      wait(500);  /* Confirm Save Quit */
+
 }
