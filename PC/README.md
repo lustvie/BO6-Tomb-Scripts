@@ -1,6 +1,6 @@
 # Tomb AFK PC Script Setup
 
-An AutoHotkey v1 script for AFK farming in *Black Ops 6 – Zombies (Tomb map)*.  
+AutoHotkey v1 script for AFK farming in *Black Ops 6 – Zombies (Tomb map)*.  
 
 ![AutoHotkey](https://img.shields.io/badge/AutoHotkey-v1.1-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
@@ -58,6 +58,7 @@ Before running, make sure your Augments and Settings are correct:
 - During shooting, it briefly switches to **W+A** to strafe.  
 
 ---
+
 
 
 
