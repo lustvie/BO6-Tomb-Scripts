@@ -14,7 +14,7 @@
 5. Click **"Open"** and select the downloaded `.gpc` file
 6. Click **"Compile"** (checkmark icon) to load the script
 
-💡 *First time using Cronus Zen?* Check the [official setup guide](https://cronusmax.com/zen/guide/).
+💡 *First time using Cronus Zen?* Check the [official setup guide](https://guide.cronus.support/).
 
 ---
 
@@ -91,6 +91,7 @@ The **Xbox version** adds a vibration-based **fail-safe** that automatically:
 To change button bindings, edit the `define` section near the top of each `.gpc` script with the keybind you want:
 
 ![Image](https://i.postimg.cc/650rrW7j/image.png)
+
 
 
 
